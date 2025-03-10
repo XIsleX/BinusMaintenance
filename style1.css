@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: 212227;
+    background: #212227;
+}
+
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+}
+
+*{
+    text-decoration: none;
+}
+
+.navbar{
+    background: #050921;
+    font-family: "Josefin Sans", serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 100px;
+    height: 60px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: white;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.navlinks{
+    list-style: none;
+}
+
+.navlinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlinks li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover{
+    color: #0088a9;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: #0d3f54;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease 0s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+    color: rgba(1, 2, 22, 0.8);
+}
+
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+.btn:hover{
+    color: rgba(1, 2, 22, 0.8);
+}
+
+
+#tes:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+    color: rgba(1, 2, 22, 0.8);
+}
+
+
+
+
+#tes{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: "Josefin Sans", serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#tes:hover{
+    color: rgba(1, 2, 22, 0.8);
+}
+
+#Contact{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: "Josefin Sans", serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#Contact:hover{
+    color: rgba(1, 2, 22, 0.8);
+}
+
+
+.waves {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.waves svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 140px;
+    transform: rotateY(180deg);
+}
+
+.waves .shape-fill {
+    fill: #C7F0FF;
+}
+
+.wave2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave2 svg {
+    position: relative;
+    display: block;
+    width: calc(145% + 1.3px);
+    height: 74px;
+}
+
+.wave2 .shape-fill {
+    fill: #FFB5B5;
+}
+
+
+.blue{
+    background: #C7F0FF;
+}
+
+.red {
+    background: #FFB5B5;
+}
